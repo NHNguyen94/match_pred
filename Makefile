@@ -18,9 +18,3 @@ train-home-q3:
 
 train-away-q3:
 	@python src/regression_models/away_train_model.py
-
-predict-home-q3:
-	@python src/regression_models/home_predict_samples.py
-
-predict-away-q3:
-	@python src/regression_models/away_predict_samples.py
